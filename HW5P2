@@ -1,0 +1,12 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int c, f;
+    
+    f = get_int("Please enter temperature in Fahrenheit: ");
+    c = ( (f-32) * .5555555556);   
+    printf("The Celsius temperature is %d\n", c);
+}
+
